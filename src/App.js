@@ -2,11 +2,12 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Authenticator } from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
-
+import LoginPage from "./components/common/login";
 
 function App() {
   return (
     <div className="auth" >
+      {/* <LoginPage /> */}
       <Authenticator>
         {({ signOut, user }) => (
           <div>

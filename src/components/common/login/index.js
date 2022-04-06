@@ -1,24 +1,24 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import Login from "./Login";
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import Login from "./Login";
+// import "./style.css";
 
+// class LoginPage extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       value: ""
+//     };
+//   }
 
-class LoginPage extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      value: ""
-    };
-  }
+//   render() {
+//     return (
+//       <div className="App">
+//         <Login />
+//       </div>
+//     );
+//   }
+// }
 
-  render() {
-    return (
-      <div className="App">
-        <Login />
-      </div>
-    );
-  }
-}
-
-export default LoginPage;
+// export default LoginPage;
 
